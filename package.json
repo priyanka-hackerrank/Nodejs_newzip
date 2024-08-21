@@ -1,0 +1,23 @@
+{
+  "name": "projects",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha --reporter mocha-multi-reporters --reporter-options configFile=config.json --recursive"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.6",
+    "debug": "~4.3.4",
+    "express": "~4.18.2",
+    "http-errors": "~2.0.0",
+    "morgan": "~1.10.0",
+    "pug": "3.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "mocha-junit-reporter": "2.2.0",
+    "mocha-multi-reporters": "1.5.1",
+    "supertest": "^6.3.3"
+  }
+}
